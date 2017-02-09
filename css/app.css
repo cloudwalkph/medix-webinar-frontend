@@ -1,0 +1,246 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+#root > div {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ffffff;
+}
+
+.webinarDescription {
+  color : #9e9e9e;
+  line-height : 1.4rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  /*.parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }*/
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.progress .indeterminate {
+    background-color: #121843;
+}
+
+/* webinar font-face */
+
+@font-face {
+  font-family: "Oxygen";
+  src: local(Oxygen Light), url("../fonts/oxygen/OXYGEN-LIGHT.TTF") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Oxygen";
+  src: local(Oxygen Regular), url("../fonts/oxygen/OXYGEN-REGULAR.TTF") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url("../fonts/oxygen/OXYGEN-BOLD.TTF") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-EXTRALIGHT.TTF") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-EXTRALIGHTITALIC.TTF") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local(Source Sans Pro Light), url("../fonts/sourcesanspro/SOURCESANSPRO-LIGHT.TTF") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local(Source Sans Pro Light), url("../fonts/sourcesanspro/SOURCESANSPRO-LIGHTITALIC.TTF") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local(Source Sans Pro Regular), url("../fonts/sourcesanspro/SOURCESANSPRO-REGULAR.TTF") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-ITALIC.TTF") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-SEMIBOLD.TTF") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-SEMIBOLDITALIC.TTF") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-BOLD.TTF") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-BOLDITALIC.TTF") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-BLACK.TTF") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro/SOURCESANSPRO-BLACKITALIC.TTF") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+  /**********TRANSITION***********/
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+/***** TEXT FADE OUT READ MORE *****/
+
+
+.sidebar-box {
+  max-height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.sidebar-box .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 30px 0; 
+  
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, white);
+}
+
+
+/******        PROFILE         *******/
+
+.verticalLine {
+  border-right: 2px solid rgb(100, 181, 246);
+}
+
+.contentListLink li {
+  padding : 20px 0;
+}
+
+.contentListLink li a {
+  font-size : 25px;
+}
+
+.heightView {
+  height : 90vh;
+}
+
+.card .card-image .card-medix-title {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    background-color: #000056;
+}
+
+.chatBox {
+  max-height : 420px;
+  overflow-y : auto;
+}

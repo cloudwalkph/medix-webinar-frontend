@@ -1,0 +1,1 @@
+require('./resources/assets/js/app.js');
