@@ -75,7 +75,7 @@ export default class AboutUs extends Component {
 						</div>
 					</div>
 					<div className="parallax">
-						<img src="img/Rectangle-532.jpg" width="100%" />
+						<img src="/img/Rectangle-532.jpg" width="100%" />
 					</div>
 				</div>
 			</div>

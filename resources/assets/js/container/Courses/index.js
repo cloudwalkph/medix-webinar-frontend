@@ -317,7 +317,7 @@ export default class Courses extends Component {
 	                    		<div className="col m4">
 		                    		<Card>
 		                    			<CardMedia overlay={<CardTitle title="December" subtitle="23" />}>
-		                    				<img src="img/bigstock-x-ray-photo-of-teeth-Dental-e-64462231.jpg"/>
+		                    				<img src="/img/bigstock-x-ray-photo-of-teeth-Dental-e-64462231.jpg"/>
 		                    			</CardMedia>
 		                    			<CardTitle title="Oral and Maxillofacial" />
 										<CardActions>
@@ -328,7 +328,7 @@ export default class Courses extends Component {
 	                    		<div className="col m4">
 		                    		<Card>
 		                    			<CardMedia overlay={<CardTitle title="December" subtitle="23" />}>
-		                    				<img src="img/endodontics.jpg"/>
+		                    				<img src="/img/endodontics.jpg"/>
 		                    			</CardMedia>
 		                    			<CardTitle title="Oral and Maxillofacial" />
 										<CardActions>
@@ -339,7 +339,7 @@ export default class Courses extends Component {
 	                    		<div className="col m4">
 		                    		<Card>
 		                    			<CardMedia overlay={<CardTitle title="December" subtitle="23" />}>
-		                    				<img src="img/bigstock-x-ray-photo-of-teeth-Dental-e-64462231.jpg"/>
+		                    				<img src="/img/bigstock-x-ray-photo-of-teeth-Dental-e-64462231.jpg"/>
 		                    			</CardMedia>
 		                    			<CardTitle title="Oral and Maxillofacial" />
 										<CardActions>

@@ -9,7 +9,7 @@ var Footer = React.createClass({
                     <div className="container">
                         <div className="row">
                             <div className="col m4">
-                                <img src="img/Dental-Access.png" height="10px" />
+                                <img src="/img/Dental-Access.png" height="10px" />
                             </div>
                             <div className="col m4">
 

@@ -17,7 +17,7 @@ export default class Dashboard extends Component {
 					<div className="container">
 						<div className="nav-wrapper">
 							<Link to="/admin/dashboard" className="brand-logo">
-								<img src="img/logo.png" style={this.state.style.logo} />
+								<img src="/img/logo.png" style={this.state.style.logo} />
 							</Link>
 							<ul id="nav-mobile" className="right hide-on-med-and-down">
 								<li><a href="#" className="btn waves-effect waves-light indigo darken-3">LOG OUT</a></li>
